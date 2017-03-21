@@ -1,6 +1,4 @@
 @namespace url(http://www.w3.org/1999/xhtml);
-@-moz-document domain('calendar.google.com'), url-prefix('https://calendar.google.com') {
-
 /*========================Google Bar at the top========================*/
 /*Reminder to Vote above the Google Bar*/
 /*.gb_Bc{background: #111111 !important;}*/
@@ -10,12 +8,19 @@
 .gb_Hc{color: #CCCCCC !important;}*/
 
 /*Background color for the Google bar*/
-.gb_wf, .gb_ve, .gb_ye, .gb_Ce, .gb_Ef, .gb_Me, .gb_Pe, .gb_Se, /*Old Google Bar*/
+.gb_wf, #gbq1, .gb_ve, .gb_ye, .gb_Ce, .gb_Ef, .gb_Me, .gb_Pe, .gb_Se, /*Old Google Bar*/
 .gb_nd, .gb_md, .gb_od, .gb_qd, .gb_xd /*New Google Bar*/
 {
     background: #111111 !important;
 }
 
+.gb_R.gb_Re {
+    background: #111111 !important;
+}
+
+.gb_jb.gb_Vf.gb_R.gb_Uf.gb_T {
+    background: #111111 !important;
+}
 /*Background color for Search box*/
 #gbqfqw, .gb_Kd, .gb_td .gb_Od, .gb_ne, .gb_Ud{
     background: #333333 !important;
@@ -34,6 +39,52 @@
 /*Text color for Search box popup*/
 .cTa, .WSa, .vqNupe-MZArnb, .gssb_m{
     color: #777777 !important;
+}
+
+.wk-border {
+    border-bottom: 1px solid #111 !important;
+}
+
+.lv-lastevent.lv-eventcell {
+        border-bottom-color: rgb(17, 17, 17) !important;
+}
+.lv-today.lv-datecell, .lv-hl-row.lv-datecell {
+        border-bottom-color: rgb(17, 17, 17) !important;
+    border-bottom: 1px solid #111 !important;
+    border-color: #111111 !important;
+}
+
+.lk, a:link{
+    color: rgba(255, 255, 255, 0.36) !important;
+}
+
+.lv-datecell{
+    border-bottom-color: rgb(17, 17, 17) !important;
+}
+
+.lv-eventcell.lv-status, .lv-eventcell.lv-time, .lv-eventcell.lv-titlecell, tr, .b, .z, .g, .Nb  {
+    background-color: rgb(17, 17, 17) !important;
+}
+
+.Ob .m,.Ob .i,.Ob .n,.Ob .g,.ab {
+    background-color:  rgb(17, 17, 17) !important;
+}
+
+dt { 
+    background-color: rgb(17, 17, 17) !important;
+}
+
+.date-top {
+    color: rgba(255, 249, 249, 0.46) !important;
+}
+
+#mainlogo {
+    color: rgba(255, 249, 249, 0.46) !important;
+}
+
+#mainlogo {
+    color: rgba(255, 249, 249, 0.46) !important;
+    
 }
 
 /*To change the color of the icons in the Google Bar, change your options on https://userstyles.org/styles/120351.*/
@@ -56,6 +107,15 @@
 /*Remove individual apps button border*/
 .gb_O{
     border: none !important;
+}
+
+.Ab{
+    border-top: 1px solid #111;
+}
+
+.sng-wrapper {
+    border-style: solid;
+    border-color: #111111;
 }
 
 /*Individual apps button text color*/
@@ -315,7 +375,7 @@ label{
 
 /*Hyperlink color*/
 .lk, a:link{
-    color: #DD4B39 !important;
+    color: rgba(255, 255, 255, 0.36) !important;
     /*color: rgb(70, 214, 219) !important;*/
 }
 
@@ -465,10 +525,6 @@ label{
     /*border-top: 1px solid #777777 !important;*/
 }
 
-/*Text color for the calendar logo*/
-#mainlogo{
-    color: #DD4B39 !important;
-}
 
 /*Text color for the buttons on the Calendar views*/
 .goog-imageless-button-content{
@@ -499,10 +555,6 @@ label{
     border-color: #DD4B39 !important;
 }
 
-/*Text color for the date next to the arrow buttons in the Header*/
-.date-top{
-    color: #DD4B39 !important;
-}
 
 /*Area to the left of the Day button*/
 .trans-strip{
@@ -1592,11 +1644,4 @@ div.st-msi-col{
 .tg-time-pri, .tg-time-sec {
     color: #757575 !important;
     border-color: #111111 !important;
-}
-
-.Nb{
-	background-color: #111111 !important;
-    color: #757575 !important;
-	}
-
 }

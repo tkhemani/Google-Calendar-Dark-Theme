@@ -1120,11 +1120,7 @@ tr.lv-row, tr.lv-row > th:nth-child(1){
     background: #111111 !important;
 }
 
-/*Background color for back arrow in Event view*/
-.goog-imageless-button-pos:hover{
-    background: #666666 !important;
-    color: #FFFFFF !important;
-}
+
 
 /*Background color for "More Actions" box in Event view*/
 select.prefselect{
@@ -1644,4 +1640,119 @@ div.st-msi-col{
 .tg-time-pri, .tg-time-sec {
     color: #757575 !important;
     border-color: #111111 !important;
+}
+
+.gssb_e{
+ background: #111111 !important;   
+}
+
+.lv-today .lv-datecell, .lv-hl-row .lv-datecell {    
+    border-color: #111111 !important;
+}
+
+.dp-cell {
+    color: rgba(255, 255, 255, 0.38) !important;
+}
+
+#dp_0_cur.dp-sb-cur {
+    color: rgba(255, 255, 255, 0.38) !important;
+}
+
+.calHeader {    
+    color: rgba(255, 255, 255, 0.38) !important;    
+}
+
+.prong-lt {
+    
+    border-color: #222 transparent !important;
+    
+}
+
+.gcal-textinput, .gcal-contenteditable-textinput.textarea {
+    border-color: #444 !important;
+}
+
+.jfk-button {
+    background: rgb(68, 68, 68) !important;
+}
+
+.wk-dayname {
+    color: rgba(255, 255, 255, 0.38) !important;
+}
+
+
+.goog-inline-block{
+color: rgba(255, 255, 255, 0.38) !important;
+}
+
+.goog-inline-block .goog-flat-menu-button{
+    background: #444444 !important
+}
+
+/* .goog-inline-block {
+    
+    background: #242424 !important;
+} */
+
+.goog-imageless-button {
+    background: #111111 !important;
+    color: rgba(255, 255, 255, 0.38) !important;
+}
+
+.goog-imageless-button:hover, .goog-imageless-button-outer-box .goog-inline-block:hover {
+    background: #111111 !important;
+    color: rgba(255, 255, 255, 0.38) !important;
+}
+
+:focus {
+    outline: black auto 5px;
+    outline-color: black;
+}
+
+.goog-imageless-button-content{
+  color: rgba(255, 255, 255, 0.38) !important;  
+}
+.lv-event-time{
+color: rgba(255, 255, 255, 0.38) !important;
+}
+
+.goog-imageless-button-checked{
+    border-color: #111111 !important;
+}
+
+/* .goog-imageless-button:hover {
+    background: black !important;
+   
+} */
+
+/*Background color for back arrow in Event view*/
+.goog-imageless-button-pos:hover{
+    background: #111111 !important;
+/*     color: #FFFFFF !important; */
+}
+
+#mg-more:hover {
+    background: #111111 !important;
+    border-color: #111111 !important;
+}
+
+.goog-imageless-button:hover, .goog-imageless-button-outer-box .goog-inline-block:hover{
+    border-color: #111111 !important;
+}
+
+table, th, td {
+   border: 1px solid #111111 !important;
+}
+
+.gssb_l {
+ background-color: rgba(255, 255, 255, 0.38) !important;  
+}
+
+.gbqfif{
+ color: rgba(255, 255, 255, 0.38) !important;  
+}
+
+input, textarea {
+    color: rgba(255, 255, 255, 0.38) !important;
+    background: #111111 !important;
 }

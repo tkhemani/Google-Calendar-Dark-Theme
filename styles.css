@@ -1756,3 +1756,41 @@ input, textarea {
     color: rgba(255, 255, 255, 0.38) !important;
     background: #111111 !important;
 }
+
+.mbox-cont {
+    background: #444444;
+    border: 1px solid #111111;
+}
+
+.navbuttonouter {
+    background: #111111 !important;
+}
+
+.navbuttonouter:hover {
+    background: #111111 !important;
+    border:  #111111 !important;
+}
+
+#gbqfb{
+ display: none !important;   
+}
+
+.drag-lasso {
+    background: #222;
+}
+
+.dp-weekendh {
+    background: #222222 !important;
+}
+
+.dp-weekendh {
+    background: #222222 !important;
+}
+
+.dp-weekend {
+    background: #222222 !important;
+}
+
+.dp-weekday-selected {
+    background: #333333 !important;
+}

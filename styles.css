@@ -1889,3 +1889,12 @@ textarea {
 .wk-full-mode .wk-today {
     background: #222 !important;
 }
+
+
+.tg-nowmarker {
+    border-top: 2px solid rgba(255, 255, 255, 0.36) !important;
+}
+
+.ui-sch-hover {
+    background-color: #222222 !important;
+}
